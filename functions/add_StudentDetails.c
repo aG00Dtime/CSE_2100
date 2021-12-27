@@ -59,7 +59,8 @@ void add_student() {
 
         course *newCourse;
         // loop to add courses into another list within the student node
-        while (1) {
+        while (1)
+        {
 
             // malloc
             newCourse = (course *) malloc(sizeof(course));
@@ -91,7 +92,7 @@ void add_student() {
                     } else{
                         break;
                     }
-                    }
+                }
 
                 if (continueChoice==1){
                     continue;
@@ -99,7 +100,7 @@ void add_student() {
                 else{
                     break;
                 }
-           }
+        }
 
         // students are inserted at the end of the list
         newStudent->next = NULL;
@@ -124,7 +125,8 @@ void add_student() {
         }
 
             // continue or exit
-        while (1) {
+        while (1)
+        {
             continueChoice = 0;
 
             printf("\n--------[ CONTINUE ? ]--------\n");
