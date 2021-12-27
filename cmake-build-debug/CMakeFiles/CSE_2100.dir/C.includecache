@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/David/Documents/GitHub/CSE_2100/headers/StudentDetailsStruct.h
+
+C:/Users/David/Documents/GitHub/CSE_2100/headers/functions.h
+
+C:/Users/David/Documents/GitHub/CSE_2100/main.c
+headers/StudentDetailsStruct.h
+C:/Users/David/Documents/GitHub/CSE_2100/headers/StudentDetailsStruct.h
+headers/functions.h
+C:/Users/David/Documents/GitHub/CSE_2100/headers/functions.h
+stdio.h
+-
+stdlib.h
+-
+
