@@ -139,6 +139,7 @@ void add_student() {
                 printf("\n[ ERROR - INVALID SELECTION ]\n");
                 continue;
             }
+
             // break out of this loop and return to insert student loop if 1
             else if (continueChoice == 1){
                 break;
